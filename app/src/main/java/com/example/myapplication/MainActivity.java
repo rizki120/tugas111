@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
+import
+        androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -29,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (txtusername.getText().toString().equalsIgnoreCase("ppppp")
-                        && txtpassword.getText().toString().equalsIgnoreCase("ppppp")){
+                if (txtusername.getText().toString().equalsIgnoreCase("rizki")
+                        && txtpassword.getText().toString().equalsIgnoreCase("12345")){
                     //saving ke SP
                     editor = pref.edit();
                     editor.putString("username", txtusername.getText().toString());

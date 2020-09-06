@@ -13,7 +13,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:background="@mipmap/logorus"/>
+        />
 
     <TextView
         android:id="@+id/tvnama1"
